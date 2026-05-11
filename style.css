@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(67, 43, 71);
+} 
+
+#icon {
+    width: 150px;
+}
+
+#links {
+    padding-right: 10px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(80, 52, 87);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+#filtro{
+    width: 600px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(80, 52, 87);
+    color: whitesmoke;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+
+
+.principal{
+    width: 70%;
+}
+
+
+
+#lista{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+#lista li{
+    background-color: rgb(80, 52, 87);
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 200px;
+}
+
+#form input{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(80, 52, 87);
+    color: white;
+}
+
+#form input::placeholder{
+    color: #ddd;
+}
+
+#form button{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(80, 52, 87);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.resumo{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card{
+    background-color: #4a2c57;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.itemBox{
+    
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.itemBox h3{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.biblioteca{
+    background-color: #4a2c57;
+    
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.biblioteca h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+th{
+    color: white;
+    padding: 15px;
+    
+}
+
+td{
+    color: white;
+    padding: 18px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff30;
+}
+
+/* CAIXA CONTÍNUA DA LINHA */
+
+tbody tr{
+    background-color: #5a3567;
+}
+
+.grafico-container{
+    width: 350px;
+    height: 350px;
+    margin-left: 2000px;
+    margin-bottom: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+  <title>SintONia</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+      <header>
+        <div id="navbar">
+                <img id="icon" src="assets/logo_sintonia.png" alt="Ícone da SintONia">
+            <ul id="links">
+                <li>Dashboard</li>
+            </ul>
+
+               <ul id="links">
+                <li>Artistas</li>
+            </ul>
+
+               <ul id="links">
+              
+                <li>Genêros</li>
+            </ul>
+
+            <ul id="links">
+              
+                <li>Playlist</li>
+            </ul>
+        </div>
+
+    </header>
+
+  <input type="text" id="filtro" placeholder="🔎 Filtrar por artista ou gênero">
+
+<div class="conteudo">
+
+    <!-- ESQUERDA -->
+    <div class="principal">
+
+        <!-- BIBLIOTECA -->
+ <section class="biblioteca">
+
+    <h1>BIBLIOTECA DE MÚSICAS</h1>
+
+    <div class="tabelaBox">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Música</th>
+                    <th>Artista</th>
+                    <th>Gênero</th>
+                    <th>Duração</th>
+                    <th>Plays</th>
+                </tr>
+            </thead>
+
+            <tbody id="lista">
+
+                <tr>
+                    <td>Blinding Lights</td>
+                    <td>The Weeknd</td>
+                    <td>Pop</td>
+                    <td>3:20</td>
+                    <td>2.1M</td>
+                </tr>
+
+                <tr>
+                    <td>Stay</td>
+                    <td>Justin Bieber</td>
+                    <td>Pop</td>
+                    <td>2:30</td>
+                    <td>1.8M</td>
+                </tr>
+
+                <tr>
+                    <td>Heat Waves</td>
+                    <td>Glass Animals</td>
+                    <td>Indie</td>
+                    <td>4:00</td>
+                    <td>1.2M</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+        </section>
+
+        <!-- FORMULÁRIO -->
+        <section class="formulario">
+
+            <h2>ADICIONAR MÚSICA</h2>
+
+            <form id="form">
+
+                <input type="text" placeholder="Título" required>
+
+                <input type="text" placeholder="Artista" required>
+
+                <input type="text" placeholder="Gênero" required>
+
+                <input type="number" placeholder="Duração (min)" required>
+
+                <input type="number" placeholder="Plays" required>
+
+                <button type="submit">Adicionar</button>
+
+            </form>
+
+        </section>
+
+    </div>
+<section class="resumo">
+
+    <div class="card">
+
+        <div class="itemBox">
+            <h3>PLAYLISTS TOTAIS</h3>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <div class="itemBox">
+            <h3>DURAÇÃO TOTAL</h3>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <div class="itemBox">
+            <h3>MÚSICAS POR GÊNERO</h3>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <div class="itemBox">
+            <h3>TOP ARTISTAS</h3>
+        </div>
+
+    </div>
+
+</section>
+
+</div>
+
+    <div class="grafico-container">
+        <canvas id="meuGrafico"></canvas>
+    </div>
+
+  <script src="script.js"></script>
+  
+  
+    
+
+</body>
+</html>
+
+
