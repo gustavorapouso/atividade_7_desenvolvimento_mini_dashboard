@@ -1,12 +1,12 @@
-# Biblioteca de streaming de músicas
-# Equipe: Gustavo Rapouso, Alice, Vitória e Davi. 
+## Biblioteca de streaming de músicas
+## Equipe: Gustavo Rapouso, Alice, Vitória e Davi. 
 
-#### SintONia
+# SintONia
 
-## SintONia é uma planejamento de visualização de estatística de músicas, artistas, gêneros, duração, número de plays.
+### SintONia é uma planejamento de visualização de estatística de músicas, artistas, gêneros, duração, número de plays.
 
-### Recursos:
+## Recursos:
 
-# Funcionais: O Site vai mostrar as estatísticas dos artistas dos gêneros e suas músicas.
+### Funcionais: O Site vai mostrar as estatísticas dos artistas dos gêneros e suas músicas.
 
-# Não Funcionais: Segurança, Acessibilidade e Usabilidade.
+### Não Funcionais: Segurança, Acessibilidade e Usabilidade.
